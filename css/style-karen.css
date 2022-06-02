@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans';    
+    /* scroll-behavior: smooth; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    color: black;
+    background: #fff;
+}
+#big{
+    height: 83px;
+    padding-left: 15px;
+}
+#big img{
+    height: 83px;
+    /* padding-left: 40px; */
+}
+.white{
+    color: #fff;
+}
+.bg-mycolor{
+    background-color: #00003e;
+}
+.svg{
+    position: absolute;
+    margin: 275px 0px;
+}
+.svg2{
+    position: absolute;
+    margin-top: -17px;
+}
+
+section{
+    /* position: relative; */
+    background: linear-gradient(to right bottom, #ff5d7a, #900090, #00003e);
+    color: white;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 33px 55px; */
+    /* clip-path: ellipse(67% 65% at 50% 35%); */
+    /* clip-path: inset(); */
+}
+
+.img-box{
+    position: relative;
+    width: 60%;   
+    top: -60px;
+}
+.img-box img{
+    width: 77%;
+    height: 85%;
+    margin-top: 55px;
+}
+#button{
+    width: 100px;
+    background-color: #00003e;
+    margin-top: 18px;
+    color: white;
+    font-weight: 800;
+}
+#button:hover{
+    background-color: cyan;
+    color: black;
+}
+.content-box{
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 60px 20px;
+}
+.content-box h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 5px;
+}
+.content-box p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding: 6px;
+    letter-spacing: 2px;
+}
+#header2{
+    position: relative;
+    font-size: 35px;
+    margin-top: 75px;
+    height: 300px;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+#header2 h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+#header2 p{
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 20px 60px;  
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#header3{
+    background: linear-gradient(to right bottom, #ff5d7a, #900090, #00003e);
+    color: #fff;
+    position: relative;
+    font-size: 35px;
+    margin-top: 75px;
+    height: 500px;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+#header3 h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+#header3 p{
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 20px 60px;  
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+.container2{
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    /* padding: 50px 7px; */
+}
+.logoimg{
+    padding: 10px 10px;
+    margin: 40px 40px;
+}
+.footer2{
+    background: linear-gradient(to right bottom, #ff5d7a, #900090, #00003e);
+}
+.sb{
+    background-color: #900090;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 40px;
+}
+@media all and (max-width: 700px){
+    .svg{
+        position: absolute;
+        margin: 578px 0px;
+    }
+    #header{
+        position: relative;
+        font-size: 20px;
+        margin-top: 75px;
+        /* margin: auto; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0px 10px;
+    }
+    #header2{
+        position: relative;
+        height: auto;
+        font-size: 20px;
+        margin-top: 75px;
+        /* margin: auto; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0px 10px;
+    }
+    #header2 h3{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    #header2 p{
+        font-size: 22px;
+        padding: 0px 0px;
+        /* margin: 20px 60px;   */
+        text-align: center;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    #header3{
+        position: relative;
+        height: auto;
+        font-size: 20px;
+        margin-top: 75px;
+        /* margin: auto; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0px 0px;
+    }
+    #header3 h3{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    #header3 p{
+        font-size: 22px;
+        padding: 0px 0px;
+        /* margin: 20px 60px;   */
+        text-align: center;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    section{
+        background: linear-gradient(to right bottom, #ff5d7a, #900090, #00003e);
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -85px;
+        /* clip-path: ellipse(85% 65% at 35% 35%); */
+        /* padding: 10px 20px; */
+    }
+    /*  */
+    .img-box{
+        position: relative;
+        width: 100%;   
+        top: -0px;
+        height: 90%;
+        margin-bottom: -155px;
+    }
+    .img-box img{
+        /* padding: 0px 40px; */
+        width: 100%;
+        height: 65%;
+    }
+
+    .content-box{
+        /* top: 0px; */
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: -10px 10px;
+    }
+    .content-box h1{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 5px 0px;
+    }
+    .content-box p{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1em;
+        padding: 6px;
+        letter-spacing: 1px;
+    }
+    #button{
+        width: 100px;
+        background-color: cyan;
+        margin: 4px 8px;
+        color: black;
+        font-weight: 800;
+    }   
+}
+
+@media all and (max-width: 700px){
+
+}
